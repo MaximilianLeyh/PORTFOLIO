@@ -25,6 +25,11 @@ export class ContactComponent {
     this.emailField.nativeElement.disabled = false;
     this.textField.nativeElement.disabled = false;
     this.button.nativeElement.disabled = false;
+    setTimeout(() => {
+      document.getElementById('successful')?.classList.add('opacity-0');
+    }, 4000)
+
+    this.inputValueNull();
   }
 
   async sendMail() {
@@ -38,10 +43,15 @@ export class ContactComponent {
       method: 'POST',
       body: fd,
     });
-    this.enableForm();
     document.getElementById('successful')?.classList.remove('opacity-0');
     setTimeout(()=>{
-      window.location.href = '/portfolio/';
+    this.enableForm();
     }, 4000)
+  }
+
+  inputValueNull() {
+    this.nameField.nativeElement.value = '';
+    this.emailField.nativeElement.value = '';
+    this.textField.nativeElement.value = '';
   }
 }

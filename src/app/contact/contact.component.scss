@@ -2,6 +2,7 @@
     width: 100vw;
     background-color: #141d2f;
     padding-bottom: 200px;
+    padding-top: 100px;
     height: fit-content;
     position: relative;
     background-image: url("./../../assets/img/bg-shadow-blue3.png");
@@ -59,7 +60,6 @@
   .contactarea {
     display: flex;
     justify-content: space-between;
-    align-items: flex-start;
     width: 100%;
     box-sizing: border-box;
   
@@ -160,6 +160,10 @@
           background-position-y: 6px;
         }
       }
+
+      .button-container {
+        padding-bottom: 10px;
+      }
   
       textarea {
         width: 500px;
@@ -214,7 +218,7 @@
     }
   
     .container-contactarea {
-      padding-top: 40px;
+      padding-top: 100px;
     }
   
     .contactarea {
@@ -226,7 +230,6 @@
   
       form {
         padding-right: 0px;
-        align-items: flex-start;
         margin-left: 0px;
       }
   
@@ -272,7 +275,6 @@
   @media (max-width: 580px) {
     .contactarea {
       padding-left: 37px;
-      align-items: flex-start;
   
       .container-form{
         width: 100%;
