@@ -13,6 +13,7 @@ import { FooterComponent } from './footer/footer.component';
 import { ImpressumComponent } from './impressum/impressum.component';
 import { StartComponent } from './start/start.component';
 
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -31,7 +32,7 @@ import { StartComponent } from './start/start.component';
     BrowserModule,
     AppRoutingModule,
     FormsModule,
-    ReactiveFormsModule
+    ReactiveFormsModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
