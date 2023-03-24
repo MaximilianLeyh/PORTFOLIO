@@ -10,7 +10,6 @@
     background-position: bottom;
     background-position-x: 0px;
     background-size: 400px;
-    max-width: 1920px;
   }
   
   .go-up {
@@ -274,7 +273,8 @@
   
   @media (max-width: 580px) {
     .contactarea {
-      padding-left: 37px;
+      padding-left: 20px;
+      padding-right: 20px;
   
       .container-form{
         width: 100%;

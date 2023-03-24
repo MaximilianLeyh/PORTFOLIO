@@ -50,7 +50,10 @@ export class ContactComponent {
 
   inputValueNull() {
     this.nameField.nativeElement.value = '';
+    this.nameField.nativeElement.placeholder = 'Your name';
     this.emailField.nativeElement.value = '';
+    this.emailField.nativeElement.placeholder = 'Your email';
     this.textField.nativeElement.value = '';
+    this.textField.nativeElement.placeholder = 'Your text';
   }
-}
+  }
