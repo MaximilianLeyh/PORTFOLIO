@@ -39,6 +39,12 @@
     color: white;
     cursor: pointer;
     text-decoration: none;
+
+   
+      &:hover {
+        scale: 1.2;
+        color: #00bee8;
+      }
   }
   
   .first-part {
@@ -53,6 +59,11 @@
     color: white;
     cursor: pointer;
     text-decoration: none;
+
+    &:hover {
+      scale: 1.2;
+      color: #00bee8;
+    }
   }
   
   @media (max-width: 1050px) {
@@ -75,6 +86,10 @@
     }
     .logo {
       margin-bottom: 10px;
+
+      &:hover {
+        scale: 1.2;
+      }
     }
   }
   

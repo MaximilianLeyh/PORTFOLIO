@@ -38,7 +38,7 @@ export class ContactComponent {
     fd.append('email', this.emailField.nativeElement.value);
     fd.append('message', this.textField.nativeElement.value);
     //senden
-    await fetch('https://maximilian-leyh.developerakademie.net/send_mail/send_mail.php', {
+    await fetch('https://maximilian-leyh.com/send_mail/send_mail.php', {
       method: 'POST',
       body: fd,
     });
